@@ -24,8 +24,7 @@ train : val = 8 : 2（全体の8割をtrain、2割をval）を想定
 
 Google Colab (GPU 推奨)
 
-### ノートブック概要
-**ノートブック	内容**
+## ノートブック概要
 
 **Resnet.ipynb :** 	ResNet を使った学習・推論・評価。モデル保存、P-Rカーブ、Recall=100%時のPrecision算出、レイテンシ測定まで。
 
@@ -35,6 +34,8 @@ Google Colab (GPU 推奨)
 
 [実技試験](https://docs.google.com/presentation/d/1B_NXR9ZgPZRWpQIvnW2mIzqJYDfjqxg9b89Ef2UTvDg/edit?usp=sharing)
 
+
+
 **使い方（Colab）**
 
 Google Driveをマウント
@@ -43,11 +44,11 @@ from google.colab import drive
 drive.mount('/content/drive')
 </pre>
 
-ノートブックを開き、上から順にセルを実行
+*   ノートブックを開き、上から順にセルを実行
 
-モデル学習・評価が自動で進み、最良モデルが .pt として保存される。
+*   モデル学習・評価が自動で進み、最良モデルが .pt として保存される。
 
-評価結果を確認
+*   評価結果を確認
 
 **評価基準**
 P@R=100 (%):Recall=100% 条件での Precision
