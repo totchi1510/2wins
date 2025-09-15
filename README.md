@@ -5,17 +5,23 @@ ResNet と Vision Transformer (ViT) の2種類のモデルを用意しており�
 評価指標は
  Recall=100%（見逃しゼロ) を条件にしたときの Precisionと1枚あたりの推論速度（p95レイテンシなど）を想定している。
 
-****データセット構成****
+## データセット構成
 
 Google Drive 上に以下のようにデータを置きます。
 
-/content/drive/MyDrive/data_splits/
- ├─ train/
- │   ├─ good/
- │   └─ bad/
- └─ val/
-     ├─ good/
-     └─ bad/
+└── laravel
+    ├── README.md
+    ├── composer.json
+    ├── composer.lock
+    ├── docker-compose.yml
+    ├── package-lock.json
+    ├── package.json
+    ├── phpunit.xml
+    ├── public
+    │   ├── favicon.ico
+    │   ├── index.php
+    │   └── robots.txt
+    └── vite.config.js
 
 
 train : val = 8 : 2（全体の8割をtrain、2割をval）を想定
