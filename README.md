@@ -38,7 +38,7 @@ Google Colab (GPU 推奨)
 
 **使い方（Colab）**
 
-Google Driveをマウント
+*   Google Driveをマウント
 <pre>
 from google.colab import drive
 drive.mount('/content/drive')
@@ -51,8 +51,8 @@ drive.mount('/content/drive')
 *   評価結果を確認
 
 **評価基準**
-P@R=100 (%):Recall=100% 条件での Precision
-p95:95%以上の評価データがこの時間以内に一枚当たりの推論を終える
+*   P@R=100 (%):Recall=100% 条件での Precision
+*   p95:95%以上の評価データがこの時間以内に一枚当たりの推論を終える
 
 ## 結果
 
