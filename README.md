@@ -31,6 +31,9 @@ Resnet.ipynb	ResNet を使った学習・推論・評価。モデル保存、P-R
 
 vit.ipynb	Vision Transformer (ViT) 版。基本的な処理フローは ResNet 版と同じ。
 
+使用モデル、使用した技術、パラメーター設定等は以下のスライドを参照
+[実技試験](https://docs.google.com/presentation/d/1B_NXR9ZgPZRWpQIvnW2mIzqJYDfjqxg9b89Ef2UTvDg/edit?usp=sharing)
+
 **使い方（Colab）**
 
 Google Driveをマウント
