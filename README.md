@@ -62,3 +62,6 @@ drive.mount('/content/drive')
 | ResNet-50  | 100.00      | 0.54     |
 | ViT        | 64.22       | 12.91    |
 
+
+考察等は以下のスライドを参照
+[実技試験](https://docs.google.com/presentation/d/1B_NXR9ZgPZRWpQIvnW2mIzqJYDfjqxg9b89Ef2UTvDg/edit?usp=sharing)
