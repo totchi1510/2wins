@@ -25,7 +25,8 @@ train : val = 8 : 2（全体の8割をtrain、2割をval）を想定
 Google Colab (GPU 推奨)
 
 ## ノートブック概要
-Notebook	内容
+**Notebook	内容**
+
 Resnet.ipynb	ResNet を使った学習・推論・評価。モデル保存、P-Rカーブ、Recall=100%時のPrecision算出、レイテンシ測定まで。
 
 vit.ipynb	Vision Transformer (ViT) 版。基本的な処理フローは ResNet 版と同じ。
