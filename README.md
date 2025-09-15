@@ -8,8 +8,16 @@ ResNet と Vision Transformer (ViT) の2種類のモデルを用意しており�
 ## データセット構成
 
 Google Drive 上に以下のようにデータを置きます。
-
-<pre> ```text /content/drive/MyDrive/data_splits/ ├─ train/ │ ├─ good/ │ └─ bad/ └─ val/ ├─ good/ └─ bad/ ``` </pre>
+<pre> ```text
+ 
+/content/drive/MyDrive/data_splits/
+ ├─ train/
+ │   ├─ good/
+ │   └─ bad/
+ └─ val/
+     ├─ good/
+     └─ bad/
+``` </pre>
 
 train : val = 8 : 2（全体の8割をtrain、2割をval）を想定
 
