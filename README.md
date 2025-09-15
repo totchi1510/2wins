@@ -8,21 +8,8 @@ ResNet と Vision Transformer (ViT) の2種類のモデルを用意しており�
 ## データセット構成
 
 Google Drive 上に以下のようにデータを置きます。
-'''
-└── laravel
-    ├── README.md
-    ├── composer.json
-    ├── composer.lock
-    ├── docker-compose.yml
-    ├── package-lock.json
-    ├── package.json
-    ├── phpunit.xml
-    ├── public
-    │   ├── favicon.ico
-    │   ├── index.php
-    │   └── robots.txt
-    └── vite.config.js
-'''
+
+<pre> ```text /content/drive/MyDrive/data_splits/ ├─ train/ │ ├─ good/ │ └─ bad/ └─ val/ ├─ good/ └─ bad/ ``` </pre>
 
 train : val = 8 : 2（全体の8割をtrain、2割をval）を想定
 
