@@ -49,9 +49,9 @@ drive.mount('/content/drive')
 
 評価結果を確認
 
-Recall=100% 条件での Precision
-
-1枚当たりの推論時間(p95など)
+**評価基準**
+P@R=100 (%):Recall=100% 条件での Precision
+p95:95%以上の評価データがこの時間以内に一枚当たりの推論を終える
 
 ## 結果
 
