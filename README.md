@@ -27,9 +27,9 @@ Google Colab (GPU 推奨)
 ## ノートブック概要
 **Notebook	内容**
 
-Resnet.ipynb	ResNet を使った学習・推論・評価。モデル保存、P-Rカーブ、Recall=100%時のPrecision算出、レイテンシ測定まで。
+**Resnet.ipynb :** 	ResNet を使った学習・推論・評価。モデル保存、P-Rカーブ、Recall=100%時のPrecision算出、レイテンシ測定まで。
 
-vit.ipynb	Vision Transformer (ViT) 版。基本的な処理フローは ResNet 版と同じ。
+**vit.ipynb:**	Vision Transformer (ViT) 版。基本的な処理フローは ResNet 版と同じ。
 
 使用モデル、使用した技術、パラメーター設定等に関する説明は以下のスライドを参照
 
